@@ -1,314 +1,295 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2868
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red236\green241\blue247;\red251\green0\blue7;
-\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red77\green80\blue85;
-\red24\green112\blue43;\red164\green69\blue11;\red9\green60\blue148;\red19\green118\blue70;}
-{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c94118\c95686\c97647;\cssrgb\c100000\c0\c0;
-\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c37255\c38824\c40784;
-\cssrgb\c9412\c50196\c21961;\cssrgb\c70980\c34902\c3137;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww9800\viewh10200\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade CTI - Estratégias Reais de Tráfego</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                            950: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 antialiased selection:bg-brand-500 selection:text-white">
 
-\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "pt-BR"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scroll-smooth"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 Comunidade CTI - Estrat\'e9gias Reais de Tr\'e1fego\cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf9 \strokec9 <!-- Tailwind CSS -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf9 \strokec9 <!-- Google Fonts -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf9 \strokec9 <!-- Lucide Icons -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://unpkg.com/lucide@latest"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cb1 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         tailwind.config = \{\cb1 \
-\cb3             theme: \{\cb1 \
-\cb3                 extend: \{\cb1 \
-\cb3                     fontFamily: \{\cb1 \
-\cb3                         sans: [\cf10 \strokec10 'Inter'\cf0 \strokec5 , \cf10 \strokec10 'sans-serif'\cf0 \strokec5 ],\cb1 \
-\cb3                     \},\cb1 \
-\cb3                     colors: \{\cb1 \
-\cb3                         brand: \{\cb1 \
-\cb3                             \cf11 \strokec11 50\cf0 \strokec5 : \cf10 \strokec10 '#eff6ff'\cf0 \strokec5 ,\cb1 \
-\cb3                             \cf11 \strokec11 100\cf0 \strokec5 : \cf10 \strokec10 '#dbeafe'\cf0 \strokec5 ,\cb1 \
-\cb3                             \cf11 \strokec11 500\cf0 \strokec5 : \cf10 \strokec10 '#3b82f6'\cf0 \strokec5 ,\cb1 \
-\cb3                             \cf11 \strokec11 600\cf0 \strokec5 : \cf10 \strokec10 '#2563eb'\cf0 \strokec5 ,\cb1 \
-\cb3                             \cf11 \strokec11 700\cf0 \strokec5 : \cf10 \strokec10 '#1d4ed8'\cf0 \strokec5 ,\cb1 \
-\cb3                             \cf11 \strokec11 900\cf0 \strokec5 : \cf10 \strokec10 '#1e3a8a'\cf0 \strokec5 ,\cb1 \
-\cb3                             \cf11 \strokec11 950\cf0 \strokec5 : \cf10 \strokec10 '#0f172a'\cf0 \strokec5 ,\cb1 \
-\cb3                         \}\cb1 \
-\cb3                     \}\cb1 \
-\cb3                 \}\cb1 \
-\cb3             \}\cb1 \
-\cb3         \}\cb1 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf7 \strokec7 .glass-card\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf12 \strokec12 rgba(\cf13 \strokec13 255\cf0 \strokec5 , \cf13 \strokec13 255\cf0 \strokec5 , \cf13 \strokec13 255\cf0 \strokec5 , \cf13 \strokec13 0.05\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 backdrop-filter:\cf0 \strokec5  \cf12 \strokec12 blur(\cf13 \strokec13 10px\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 border:\cf0 \strokec5  \cf13 \strokec13 1px\cf0 \strokec5  \cf12 \strokec12 solid\cf0 \strokec5  \cf12 \strokec12 rgba(\cf13 \strokec13 255\cf0 \strokec5 , \cf13 \strokec13 255\cf0 \strokec5 , \cf13 \strokec13 255\cf0 \strokec5 , \cf13 \strokec13 0.1\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-sans text-gray-800 bg-gray-50 antialiased selection:bg-brand-500 selection:text-white"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\pard\pardeftab720\partightenfactor0
-\cf0 \cb3     \cf9 \strokec9 <!-- HERO SECTION (Dark Theme for Authority) -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brand-950 text-white pt-20 pb-24 px-6 md:pt-32 md:pb-32 relative overflow-hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf9 \strokec9 <!-- Background Accent -->\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-600 rounded-full blur-[120px] opacity-20 pointer-events-none"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-4xl mx-auto text-center relative z-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-900/50 border border-brand-500/30 text-brand-100 text-sm font-medium mb-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "shield-check"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-4 h-4"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 Estrat\'e9gias validadas no campo de batalha\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 h1\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 Domine o tr\'e1fego com o que \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brand-500"\cf6 \strokec6 >\cf0 \strokec5 realmente funciona\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 . Sem f\'f3rmulas m\'e1gicas.\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 Voc\'ea j\'e1 percebeu que o criativo \'e9 85% do jogo? Na Comunidade CTI, voc\'ea n\'e3o encontra promessas de dinheiro f\'e1cil. Voc\'ea encontra direcionamento detalhado, an\'e1lises profundas e um grupo focado em gerar retorno real.\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col sm:flex-row items-center justify-center gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#oferta"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full sm:w-auto px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(22,163,74,0.3)] text-lg flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     Quero acessar a comunidade\cb1 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "arrow-right"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-5 h-5"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm text-gray-500 sm:hidden mt-2"\cf6 \strokec6 >\cf0 \strokec5 Acesso imediato \'95 Garantia de 7 dias\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-12 flex items-center justify-center gap-4 text-sm text-gray-400"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex -space-x-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-10 h-10 rounded-full bg-gray-600 border-2 border-brand-950 flex items-center justify-center font-bold text-xs"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56960 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-10 h-10 rounded-full bg-gray-500 border-2 border-brand-950 flex items-center justify-center font-bold text-xs"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56481 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-10 h-10 rounded-full bg-gray-700 border-2 border-brand-950 flex items-center justify-center font-bold text-xs"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56520 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \strokec5 Junte-se a profissionais que j\'e1 est\'e3o tendo resultados.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- O QUE VOC\'ca VAI APRENDER (Features) -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-20 px-6 bg-white"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-6xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center mb-16"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl md:text-4xl font-bold text-gray-900 mb-4"\cf6 \strokec6 >\cf0 \strokec5 O jogo virou. \'c9 hora de jogar do jeito certo.\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg text-gray-600 max-w-2xl mx-auto"\cf6 \strokec6 >\cf0 \strokec5 O mercado amadureceu. Truques antigos n\'e3o funcionam mais. Aqui est\'e1 o que foca nossos estudos e discuss\'f5es na comunidade:\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid md:grid-cols-3 gap-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Card 1 -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-14 h-14 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "image"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-7 h-7"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold text-gray-900 mb-3"\cf6 \strokec6 >\cf0 \strokec5 O Poder do Criativo\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-600"\cf6 \strokec6 >\cf0 \strokec5 Como meus alunos j\'e1 perceberam, o criativo \'e9 85% do resultado. Aprenda a estruturar an\'fancios que realmente convertem, sem depender apenas de hacks na plataforma.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- Card 2 -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-14 h-14 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "target"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-7 h-7"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold text-gray-900 mb-3"\cf6 \strokec6 >\cf0 \strokec5 Direcionamento Detalhado\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-600"\cf6 \strokec6 >\cf0 \strokec5 Chega de jogar dinheiro fora com p\'fablicos errados. Aprenda a segmentar para clientes de alto valor (como investidores e mercado imobili\'e1rio de alto padr\'e3o).\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- Card 3 -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-14 h-14 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "users"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-7 h-7"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold text-gray-900 mb-3"\cf6 \strokec6 >\cf0 \strokec5 Insights de Alto N\'edvel\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-600"\cf6 \strokec6 >\cf0 \strokec5 Uma comunidade ativa onde compartilhamos campanhas que est\'e3o rodando agora, custos por lead (CPL) reais e o que est\'e1 funcionando no dia a dia.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- PROVA SOCIAL (Prints reais) -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-20 px-6 bg-brand-950 text-white"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-6xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center mb-16"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl md:text-4xl font-bold mb-4"\cf6 \strokec6 >\cf0 \strokec5 N\'e3o acredite apenas em mim.\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg text-gray-400 max-w-2xl mx-auto"\cf6 \strokec6 >\cf0 \strokec5 Esses s\'e3o resultados, conversas e feedbacks reais de quem est\'e1 l\'e1 dentro aplicando o conhecimento no dia a dia.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf9 \strokec9 <!-- Grid de Depoimentos (Masonry/Responsive) -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cb1 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "1.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Feedback de aluno sobre a comunidade"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto object-cover"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x500/1e293b/ffffff?text=Print+1'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cb1 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "6.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Aluno falando sobre os resultados em vendas"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto object-cover"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x600/1e293b/ffffff?text=Print+6'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "8.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Aluno mostrando custo por mensagem baixo"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto object-cover"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x500/1e293b/ffffff?text=Print+8'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "9.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Feedbacks sobre campanhas internacionais"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto object-cover"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x550/1e293b/ffffff?text=Print+9'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "3.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Aluno agradecendo pelos insights da CTI"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto object-cover"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x450/1e293b/ffffff?text=Print+3'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1 flex flex-col gap-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf9 \strokec9 <!-- Agrupando menores -->\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "4.png"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Parab\'e9ns pelo conte\'fado"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto rounded-lg"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x300/1e293b/ffffff?text=Print+4'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "2.png"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Leque enorme de op\'e7\'f5es aberto"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-auto rounded-lg"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/400x300/1e293b/ffffff?text=Print+2'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-12 text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-medium text-brand-100"\cf6 \strokec6 >\cf0 \strokec5 Como um dos alunos disse: \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-white font-bold"\cf6 \strokec6 >\cf0 \strokec5 "Sai barato a comunidade, n\'e9? J\'e1 me abriu um leque enorme de op\'e7\'f5es."\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- SOBRE O AUTOR -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-24 px-6 bg-white"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "md:w-1/2 relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Background decorativo sutil -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute -top-4 -left-4 w-full h-full bg-brand-100 rounded-2xl"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "2 melhor.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "Bruno - Criador da Comunidade CTI"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative z-10 w-full h-auto rounded-2xl shadow-xl object-cover aspect-[3/4]"\cf0 \strokec5  \cf4 \strokec4 onerror\cf6 \strokec6 =\cf8 \strokec8 "this.src='https://placehold.co/600x800/e2e8f0/475569?text=Sua+Foto+Aqui'"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "md:w-1/2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl md:text-4xl font-bold text-gray-900 mb-6"\cf6 \strokec6 >\cf0 \strokec5 Prazer, sou o Bruno.\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4 text-lg text-gray-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         Eu acredito na transpar\'eancia. O mercado de marketing digital est\'e1 saturado de promessas de "fique rico do dia para a noite" e capturas de tela forjadas.\cb1 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         Minha abordagem \'e9 diferente: eu vivo o \cf6 \strokec6 <\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 campo de batalha\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  todos os dias. Subo campanhas, erro, acerto, otimizo criativos e analiso m\'e9tricas incansavelmente.\cb1 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         Criei a comunidade para reunir pessoas que pensam da mesma forma. Pessoas que entendem que o tr\'e1fego pago \'e9 uma ferramenta poderosa, mas que exige per\'edcia, estudo de p\'fablico e testes constantes. \cb1 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-semibold text-gray-900 mt-6 border-l-4 border-brand-500 pl-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         "A per\'edcia te leva ao sucesso. Depois que voc\'ea v\'ea como o jogo real funciona, \'e9 imposs\'edvel desver."\cb1 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- OFERTA E CHECKOUT -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "oferta"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-24 px-6 bg-gray-50"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-4xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brand-950 p-8 text-center text-white relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         Acesso Imediato\cb1 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl md:text-4xl font-bold mb-2"\cf6 \strokec6 >\cf0 \strokec5 Fa\'e7a Parte da Comunidade\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brand-100 text-lg"\cf6 \strokec6 >\cf0 \strokec5 O investimento que se paga com a sua primeira campanha otimizada.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cb1 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "p-8 md:p-12"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col md:flex-row gap-12 items-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf9 \strokec9 <!-- Beneficios -->\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full md:w-1/2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-xl text-gray-900 mb-6"\cf6 \strokec6 >\cf0 \strokec5 O que est\'e1 incluso:\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "check-circle-2"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-6 h-6 text-green-500 shrink-0"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700"\cf6 \strokec6 >\cf0 \strokec5 Acesso completo \'e0s aulas gravadas e atualiza\'e7\'f5es\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "check-circle-2"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-6 h-6 text-green-500 shrink-0"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700"\cf6 \strokec6 >\cf0 \strokec5 Acesso ao grupo de networking da Comunidade\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "check-circle-2"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-6 h-6 text-green-500 shrink-0"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700"\cf6 \strokec6 >\cf0 \strokec5 An\'e1lise de criativos e campanhas reais\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "check-circle-2"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-6 h-6 text-green-500 shrink-0"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700"\cf6 \strokec6 >\cf0 \strokec5 Estrat\'e9gias para neg\'f3cios locais, infoprodutos e alto valor\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cb1 \
-\cb3                         \cf9 \strokec9 <!-- Pre\'e7o -->\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full md:w-1/2 flex flex-col items-center p-6 bg-gray-50 rounded-2xl border border-gray-100 text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-500 line-through mb-1"\cf6 \strokec6 >\cf0 \strokec5 De R$ 1.497,00 por apenas\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm font-medium text-gray-600 mb-2"\cf6 \strokec6 >\cf0 \strokec5 12x de\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-5xl font-black text-gray-900 mb-2"\cf6 \strokec6 >\cf0 \strokec5 R$ 101\cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl"\cf6 \strokec6 >\cf0 \strokec5 ,30\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-600 mb-6"\cf6 \strokec6 >\cf0 \strokec5 ou \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold"\cf6 \strokec6 >\cf0 \strokec5 R$ 997,00\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  \'e0 vista\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cb1 \
-\cb3                             \cf9 \strokec9 <!-- Link do checkout fornecido -->\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://pay.hub.la/UBvzOwf2t8cANz1J5PWr?_gl=1*18inq20*_gcl_au*NzMzNjU3MTEzLjE3NzI5OTMxMTE.&_path=/checkout/UBvzOwf2t8cANz1J5PWr"\cf0 \strokec5  \cb1 \
-\cb3                                \cf4 \strokec4 target\cf6 \strokec6 =\cf8 \strokec8 "_blank"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "noopener noreferrer"\cf0 \cb1 \strokec5 \
-\cb3                                \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full py-4 px-6 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl transition-all shadow-lg text-lg animate-pulse flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 Comprar Agora\cb1 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "shopping-cart"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-5 h-5"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cb1 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-4 flex items-center justify-center gap-2 text-sm text-gray-500"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "lock"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-4 h-4"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 Pagamento 100% Seguro via Hub.la\cb1 \
-\cb3                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- GARANTIA -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-16 px-6 bg-white border-t border-gray-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 text-center md:text-left"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-24 h-24 shrink-0 bg-brand-50 rounded-full flex items-center justify-center text-brand-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 data-lucide\cf6 \strokec6 =\cf8 \strokec8 "shield"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-gray-900 mb-2"\cf6 \strokec6 >\cf0 \strokec5 Garantia Incondicional de 7 Dias\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     A transpar\'eancia vem em primeiro lugar. Entre, assista \'e0s aulas, acesse a comunidade. Se dentro de 7 dias voc\'ea achar que o conte\'fado n\'e3o \'e9 para voc\'ea ou n\'e3o entrega o que promete, basta solicitar o reembolso. Devolvemos 100% do seu dinheiro, sem letras mi\'fadas.\cb1 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- FOOTER -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 footer\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gray-900 text-gray-400 py-12 px-6 text-center text-sm border-t border-gray-800"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-4xl mx-auto flex flex-col items-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mb-4"\cf6 \strokec6 >\cf0 \strokec5 Este site n\'e3o faz parte do site do Facebook ou do Facebook Inc. Al\'e9m disso, este site N\'c3O \'e9 endossado pelo Facebook de nenhuma maneira. FACEBOOK \'e9 uma marca comercial independente da FACEBOOK, Inc.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mb-6"\cf6 \strokec6 >\cf0 \strokec5 Os resultados podem variar de pessoa para pessoa. O sucesso nas estrat\'e9gias depende do seu esfor\'e7o e dedica\'e7\'e3o na aplica\'e7\'e3o do m\'e9todo ensinado.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex gap-6 mb-8 justify-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Termos de Uso\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Pol\'edtica de Privacidade\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \strokec5 &copy; 2026 Comunidade CTI. Todos os direitos reservados.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 footer\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- Initialize Lucide Icons -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         lucide.createIcons();\cb1 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-}
+    <!-- HERO SECTION (Dark Theme for Authority) -->
+    <section class="bg-brand-950 text-white pt-20 pb-24 px-6 md:pt-32 md:pb-32 relative overflow-hidden">
+        <!-- Background Accent -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-600 rounded-full blur-[120px] opacity-20 pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-900/50 border border-brand-500/30 text-brand-100 text-sm font-medium mb-8">
+                <i data-lucide="shield-check" class="w-4 h-4"></i>
+                Estratégias validadas no campo de batalha
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                Domine o tráfego com o que <span class="text-brand-500">realmente funciona</span>. Sem fórmulas mágicas.
+            </h1>
+            
+            <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Você já percebeu que o criativo é 85% do jogo? Na Comunidade CTI, você não encontra promessas de dinheiro fácil. Você encontra direcionamento detalhado, análises profundas e um grupo focado em gerar retorno real.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#oferta" class="w-full sm:w-auto px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(22,163,74,0.3)] text-lg flex items-center justify-center gap-2">
+                    Quero acessar a comunidade
+                    <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </a>
+                <p class="text-sm text-gray-500 sm:hidden mt-2">Acesso imediato • Garantia de 7 dias</p>
+            </div>
+            
+            <div class="mt-12 flex items-center justify-center gap-4 text-sm text-gray-400">
+                <div class="flex -space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-gray-600 border-2 border-brand-950 flex items-center justify-center font-bold text-xs">🚀</div>
+                    <div class="w-10 h-10 rounded-full bg-gray-500 border-2 border-brand-950 flex items-center justify-center font-bold text-xs">💡</div>
+                    <div class="w-10 h-10 rounded-full bg-gray-700 border-2 border-brand-950 flex items-center justify-center font-bold text-xs">📈</div>
+                </div>
+                <p>Junte-se a profissionais que já estão tendo resultados.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- O QUE VOCÊ VAI APRENDER (Features) -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">O jogo virou. É hora de jogar do jeito certo.</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">O mercado amadureceu. Truques antigos não funcionam mais. Aqui está o que foca nossos estudos e discussões na comunidade:</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow">
+                    <div class="w-14 h-14 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="image" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">O Poder do Criativo</h3>
+                    <p class="text-gray-600">Como meus alunos já perceberam, o criativo é 85% do resultado. Aprenda a estruturar anúncios que realmente convertem, sem depender apenas de hacks na plataforma.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow">
+                    <div class="w-14 h-14 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="target" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Direcionamento Detalhado</h3>
+                    <p class="text-gray-600">Chega de jogar dinheiro fora com públicos errados. Aprenda a segmentar para clientes de alto valor (como investidores e mercado imobiliário de alto padrão).</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow">
+                    <div class="w-14 h-14 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="users" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Insights de Alto Nível</h3>
+                    <p class="text-gray-600">Uma comunidade ativa onde compartilhamos campanhas que estão rodando agora, custos por lead (CPL) reais e o que está funcionando no dia a dia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROVA SOCIAL (Prints reais) -->
+    <section class="py-20 px-6 bg-brand-950 text-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Não acredite apenas em mim.</h2>
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto">Esses são resultados, conversas e feedbacks reais de quem está lá dentro aplicando o conhecimento no dia a dia.</p>
+            </div>
+
+            <!-- Grid de Depoimentos (Masonry/Responsive) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1">
+                    <img src="1.jpg" alt="Feedback de aluno sobre a comunidade" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/400x500/1e293b/ffffff?text=Print+1'">
+                </div>
+                
+                <div class="rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1">
+                    <img src="6.jpg" alt="Aluno falando sobre os resultados em vendas" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/400x600/1e293b/ffffff?text=Print+6'">
+                </div>
+
+                <div class="rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1">
+                    <img src="8.jpg" alt="Aluno mostrando custo por mensagem baixo" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/400x500/1e293b/ffffff?text=Print+8'">
+                </div>
+
+                <div class="rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1">
+                    <img src="9.jpg" alt="Feedbacks sobre campanhas internacionais" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/400x550/1e293b/ffffff?text=Print+9'">
+                </div>
+
+                <div class="rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1">
+                    <img src="3.jpg" alt="Aluno agradecendo pelos insights da CTI" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/400x450/1e293b/ffffff?text=Print+3'">
+                </div>
+
+                <div class="rounded-xl overflow-hidden shadow-lg border border-gray-800 transition-transform hover:-translate-y-1 flex flex-col gap-6">
+                    <!-- Agrupando menores -->
+                    <img src="4.png" alt="Parabéns pelo conteúdo" class="w-full h-auto rounded-lg" onerror="this.src='https://placehold.co/400x300/1e293b/ffffff?text=Print+4'">
+                    <img src="2.png" alt="Leque enorme de opções aberto" class="w-full h-auto rounded-lg" onerror="this.src='https://placehold.co/400x300/1e293b/ffffff?text=Print+2'">
+                </div>
+
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="text-xl font-medium text-brand-100">Como um dos alunos disse: <span class="text-white font-bold">"Sai barato a comunidade, né? Já me abriu um leque enorme de opções."</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE O AUTOR -->
+    <section class="py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 relative">
+                <!-- Background decorativo sutil -->
+                <div class="absolute -top-4 -left-4 w-full h-full bg-brand-100 rounded-2xl"></div>
+                <img src="foto-bruno.jpg" alt="Bruno - Criador da Comunidade CTI" class="relative z-10 w-full h-auto rounded-2xl shadow-xl object-cover aspect-[3/4]" onerror="this.src='https://placehold.co/600x800/e2e8f0/475569?text=Sua+Foto+Aqui'">
+            </div>
+            
+            <div class="md:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Prazer, sou o Bruno.</h2>
+                <div class="space-y-4 text-lg text-gray-600">
+                    <p>
+                        Eu acredito na transparência. O mercado de marketing digital está saturado de promessas de "fique rico do dia para a noite" e capturas de tela forjadas.
+                    </p>
+                    <p>
+                        Minha abordagem é diferente: eu vivo o <strong>campo de batalha</strong> todos os dias. Subo campanhas, erro, acerto, otimizo criativos e analiso métricas incansavelmente.
+                    </p>
+                    <p>
+                        Criei a comunidade para reunir pessoas que pensam da mesma forma. Pessoas que entendem que o tráfego pago é uma ferramenta poderosa, mas que exige perícia, estudo de público e testes constantes. 
+                    </p>
+                    <p class="font-semibold text-gray-900 mt-6 border-l-4 border-brand-500 pl-4">
+                        "A perícia te leva ao sucesso. Depois que você vê como o jogo real funciona, é impossível desver."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFERTA E CHECKOUT -->
+    <section id="oferta" class="py-24 px-6 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+                <div class="bg-brand-950 p-8 text-center text-white relative">
+                    <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider">
+                        Acesso Imediato
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-2">Faça Parte da Comunidade</h2>
+                    <p class="text-brand-100 text-lg">O investimento que se paga com a sua primeira campanha otimizada.</p>
+                </div>
+                
+                <div class="p-8 md:p-12">
+                    <div class="flex flex-col md:flex-row gap-12 items-center">
+                        <!-- Beneficios -->
+                        <div class="w-full md:w-1/2">
+                            <h3 class="font-bold text-xl text-gray-900 mb-6">O que está incluso:</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-6 h-6 text-green-500 shrink-0"></i>
+                                    <span class="text-gray-700">Acesso completo às aulas gravadas e atualizações</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-6 h-6 text-green-500 shrink-0"></i>
+                                    <span class="text-gray-700">Acesso ao grupo de networking da Comunidade</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-6 h-6 text-green-500 shrink-0"></i>
+                                    <span class="text-gray-700">Análise de criativos e campanhas reais</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-6 h-6 text-green-500 shrink-0"></i>
+                                    <span class="text-gray-700">Estratégias para negócios locais, infoprodutos e alto valor</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Preço -->
+                        <div class="w-full md:w-1/2 flex flex-col items-center p-6 bg-gray-50 rounded-2xl border border-gray-100 text-center">
+                            <p class="text-gray-500 line-through mb-1">De R$ 1.497,00 por apenas</p>
+                            <div class="text-sm font-medium text-gray-600 mb-2">12x de</div>
+                            <div class="text-5xl font-black text-gray-900 mb-2">R$ 101<span class="text-2xl">,30</span></div>
+                            <p class="text-gray-600 mb-6">ou <span class="font-bold">R$ 997,00</span> à vista</p>
+                            
+                            <!-- Link do checkout fornecido -->
+                            <a href="https://pay.hub.la/UBvzOwf2t8cANz1J5PWr?_gl=1*18inq20*_gcl_au*NzMzNjU3MTEzLjE3NzI5OTMxMTE.&_path=/checkout/UBvzOwf2t8cANz1J5PWr" 
+                               target="_blank" rel="noopener noreferrer"
+                               class="w-full py-4 px-6 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl transition-all shadow-lg text-lg animate-pulse flex items-center justify-center gap-2">
+                                Comprar Agora
+                                <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+                            </a>
+                            
+                            <div class="mt-4 flex items-center justify-center gap-2 text-sm text-gray-500">
+                                <i data-lucide="lock" class="w-4 h-4"></i>
+                                Pagamento 100% Seguro via Hub.la
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GARANTIA -->
+    <section class="py-16 px-6 bg-white border-t border-gray-100">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
+            <div class="w-24 h-24 shrink-0 bg-brand-50 rounded-full flex items-center justify-center text-brand-600">
+                <i data-lucide="shield" class="w-12 h-12"></i>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Garantia Incondicional de 7 Dias</h3>
+                <p class="text-gray-600">
+                    A transparência vem em primeiro lugar. Entre, assista às aulas, acesse a comunidade. Se dentro de 7 dias você achar que o conteúdo não é para você ou não entrega o que promete, basta solicitar o reembolso. Devolvemos 100% do seu dinheiro, sem letras miúdas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-12 px-6 text-center text-sm border-t border-gray-800">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">
+            <p class="mb-4">Este site não faz parte do site do Facebook ou do Facebook Inc. Além disso, este site NÃO é endossado pelo Facebook de nenhuma maneira. FACEBOOK é uma marca comercial independente da FACEBOOK, Inc.</p>
+            <p class="mb-6">Os resultados podem variar de pessoa para pessoa. O sucesso nas estratégias depende do seu esforço e dedicação na aplicação do método ensinado.</p>
+            
+            <div class="flex gap-6 mb-8 justify-center">
+                <a href="#" class="hover:text-white transition-colors">Termos de Uso</a>
+                <a href="#" class="hover:text-white transition-colors">Política de Privacidade</a>
+            </div>
+            
+            <p>&copy; 2026 Comunidade CTI. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
